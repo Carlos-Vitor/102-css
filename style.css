@@ -26,6 +26,11 @@ nav a:first-child{
     font-size: 22pt;
     font-family: 'Montserrat', sans-serif;
 }
+header{
+    height: 500px;
+    background-image: url("image/banner_perry.jpg");
+    background-size: cover;
+}
 section{
     display: flex;
     justify-content: center;
