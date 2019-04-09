@@ -16,8 +16,53 @@ a{
 
 }
 
+nav a:hover{
+    color: darkorange;
+    text-decoration: underline;
+}
+
 nav a:first-child{
     color: black;
     font-size: 22pt;
     font-family: 'Montserrat', sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+
+}
+
+section div{
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    margin-top: 30px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+div input{
+    margin-bottom: 5px;
+    width: 95%;
+}
+section div input:focus{
+    background-color:orange;
+
+}
+input::placeholder{
+    color: orange;
+    text-align: center;
+
+}
+
+div input:nth-child(4){
+    margin-top: 20px;
+    width: 70%;
+    height: 22px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 0 9px greenyellow;
 }
